@@ -8,6 +8,7 @@ A personal Agent Skills collection containing original skills and community skil
 skills/
 ├── mattpocock/       # From mattpocock/skills
 ├── emilkowalski/     # From emilkowalski/skills
+├── shadcn/           # From shadcn/improve
 └── caven/            # Original skills maintained here
 ```
 
@@ -44,7 +45,7 @@ npx skills@latest add keyding/skills --skill '*' -a claude-code codex -g -y
 
 ## Usage
 
-See the [Human-invoked Skills Guide](USAGE.md) for every skill that a person can invoke directly, including what it does, when to use it, and example invocation patterns. Some of these skills may also be selected automatically by an agent.
+See the [Skill Usage Guide](USAGE.md) for a complete skill index, detailed introductions, usage scenarios, and invocation examples. Every skill can be invoked directly; some may also be selected automatically by an agent.
 
 ## Maintenance
 
@@ -87,4 +88,5 @@ Original content in this repository is licensed under the [MIT License](LICENSE)
 
 - [mattpocock/skills](https://github.com/mattpocock/skills)
 - [emilkowalski/skills](https://github.com/emilkowalski/skills)
+- [shadcn/improve](https://github.com/shadcn/improve)
 - [vercel-labs/skills](https://github.com/vercel-labs/skills)

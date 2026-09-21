@@ -8,6 +8,7 @@
 skills/
 ├── mattpocock/       # 来自 mattpocock/skills
 ├── emilkowalski/     # 来自 emilkowalski/skills
+├── shadcn/           # 来自 shadcn/improve
 └── caven/            # 本仓库原创技能
 ```
 
@@ -44,7 +45,7 @@ npx skills@latest add keyding/skills --skill '*' -a claude-code codex -g -y
 
 ## 使用方法
 
-请参阅[人类主动调用的 Skills 使用指南](USAGE_zh-CN.md)，了解每个可由人直接调用的 Skill 的作用、适用场景和调用方式。其中部分 Skill 也可能由 AI 自动选择。
+请参阅 [Skills 使用指南](USAGE_zh-CN.md)，通过完整索引查看每个 Skill 的介绍、适用场景和调用方式。所有 Skill 都可以由人直接调用，其中部分也可能由 Agent 自动选择。
 
 ## 维护
 
@@ -87,4 +88,5 @@ npm run add -- owner/repository \
 
 - [mattpocock/skills](https://github.com/mattpocock/skills)
 - [emilkowalski/skills](https://github.com/emilkowalski/skills)
+- [shadcn/improve](https://github.com/shadcn/improve)
 - [vercel-labs/skills](https://github.com/vercel-labs/skills)

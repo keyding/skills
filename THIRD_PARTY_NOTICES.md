@@ -17,3 +17,11 @@ This repository redistributes selected Agent Skills from the following projects.
 - Copyright: Copyright (c) 2026 Emil Kowalski
 - Local changes: the upstream `prototype` skill is published as `emil-prototype`.
 - License text: [LICENSES/emilkowalski-skills.txt](LICENSES/emilkowalski-skills.txt)
+
+## shadcn Improve
+
+- Source: https://github.com/shadcn/improve
+- License: MIT
+- Copyright: Copyright (c) 2026 shadcn
+- Local changes: none
+- License text: [LICENSES/shadcn-improve.txt](LICENSES/shadcn-improve.txt)

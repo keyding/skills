@@ -27,6 +27,11 @@
         "prototype": "emil-prototype"
       },
       "replacements": []
+    },
+    "shadcn/improve": {
+      "directory": "shadcn",
+      "renames": {},
+      "replacements": []
     }
   }
 }
