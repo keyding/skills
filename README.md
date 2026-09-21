@@ -42,6 +42,10 @@ Install every skill globally for Claude Code and Codex:
 npx skills@latest add keyding/skills --skill '*' -a claude-code codex -g -y
 ```
 
+## Usage
+
+See the [Human-invoked Skills Guide](USAGE.md) for every skill that a person can invoke directly, including what it does, when to use it, and example invocation patterns. Some of these skills may also be selected automatically by an agent.
+
 ## Maintenance
 
 `skills-sources.json` is the source of truth for upstream repositories, author directories, collision renames, and exact reference replacements. The sync script downloads each upstream into an isolated temporary workspace so duplicate names cannot overwrite one another. `skills-sources.lock.json` records the last synchronized upstream commits.

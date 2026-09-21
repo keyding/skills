@@ -42,6 +42,10 @@ npx skills@latest add keyding/skills --list
 npx skills@latest add keyding/skills --skill '*' -a claude-code codex -g -y
 ```
 
+## 使用方法
+
+请参阅[人类主动调用的 Skills 使用指南](USAGE_zh-CN.md)，了解每个可由人直接调用的 Skill 的作用、适用场景和调用方式。其中部分 Skill 也可能由 AI 自动选择。
+
 ## 维护
 
 上游来源、作者目录、重名改名和精确引用替换统一登记在 `skills-sources.json`。同步脚本会为每个上游创建隔离的临时工作区，避免同名 Skill 在下载阶段互相覆盖；`skills-sources.lock.json` 记录最近同步的上游 commit。
