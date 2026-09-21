@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "sources": {
+    "mattpocock/skills": {
+      "commit": "c55ee46073ed923f86ce59a5eb3b6d895095d1b7",
+      "ref": "main"
+    },
+    "emilkowalski/skills": {
+      "commit": "85e8e2363b713506e1d5b6e07a0eb2da66be1bc3",
+      "ref": "main"
+    }
+  }
+}

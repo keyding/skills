@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "sources": {
+    "mattpocock/skills": {
+      "directory": "mattpocock",
+      "renames": {
+        "prototype": "matt-prototype"
+      },
+      "replacements": [
+        {
+          "file": "ask-matt/SKILL.md",
+          "from": "`/prototype`",
+          "to": "`/matt-prototype`",
+          "expected": 2
+        },
+        {
+          "file": "wayfinder/SKILL.md",
+          "from": "with \"prototype\"",
+          "to": "with \"matt-prototype\"",
+          "expected": 1
+        }
+      ]
+    },
+    "emilkowalski/skills": {
+      "directory": "emilkowalski",
+      "renames": {
+        "prototype": "emil-prototype"
+      },
+      "replacements": []
+    }
+  }
+}

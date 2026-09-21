@@ -1,0 +1,12 @@
+{
+  "name": "caven-skills",
+  "private": true,
+  "scripts": {
+    "add": "node scripts/sync-skills.mjs add",
+    "check": "node scripts/sync-skills.mjs update --dry-run",
+    "sync": "node scripts/sync-skills.mjs update"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
