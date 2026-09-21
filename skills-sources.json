@@ -32,6 +32,18 @@
       "directory": "shadcn",
       "renames": {},
       "replacements": []
+    },
+    "coreyhaines31/marketingskills": {
+      "directory": "coreyhaines31",
+      "renames": {},
+      "replacements": [
+        {
+          "file": "copywriting/references/copy-frameworks.md",
+          "from": "- *Startup landing page:* \"Ship your first integration this afternoon. No sales calls, no procurement.\" ",
+          "to": "- *Startup landing page:* \"Ship your first integration this afternoon. No sales calls, no procurement.\"",
+          "expected": 1
+        }
+      ]
     }
   }
 }

@@ -9,6 +9,7 @@ skills/
 ├── mattpocock/       # From mattpocock/skills
 ├── emilkowalski/     # From emilkowalski/skills
 ├── shadcn/           # From shadcn/improve
+├── coreyhaines31/    # From coreyhaines31/marketingskills
 └── caven/            # Original skills maintained here
 ```
 
@@ -78,6 +79,8 @@ npm run add -- owner/repository \
 
 Commit existing work before syncing. By default, the script refuses to replace an author directory with uncommitted changes. Run `npm run check` to download and validate without publishing. Use `npm run sync -- --force` to explicitly replace locally modified third-party directories. Review the Git diff after synchronization, then commit the update.
 
+Repository maintainers can invoke the repository-local `/maintain-skills-collection` Skill after adding or updating a source. It audits the source, licensing, bilingual catalog, indexes, and installation without being published as part of this collection.
+
 Create original skills directly under `skills/caven/<skill-name>/`. Put long-lived third-party customizations in `skills/caven/` as separately named derivative skills with their source recorded.
 
 ## License
@@ -89,4 +92,5 @@ Original content in this repository is licensed under the [MIT License](LICENSE)
 - [mattpocock/skills](https://github.com/mattpocock/skills)
 - [emilkowalski/skills](https://github.com/emilkowalski/skills)
 - [shadcn/improve](https://github.com/shadcn/improve)
+- [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills)
 - [vercel-labs/skills](https://github.com/vercel-labs/skills)

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Maintain Skills Collection"
+  short_description: "Maintain the keyding/skills repository catalog"
+  default_prompt: "Use $maintain-skills-collection to integrate a newly added or updated source in the current keyding/skills repository."

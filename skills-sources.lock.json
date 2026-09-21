@@ -12,6 +12,10 @@
     "shadcn/improve": {
       "commit": "cac56e1ebd3c279aa9153616cfeac7b174ab90f9",
       "ref": "main"
+    },
+    "coreyhaines31/marketingskills": {
+      "commit": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+      "ref": "main"
     }
   }
 }

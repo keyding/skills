@@ -9,6 +9,7 @@ skills/
 ├── mattpocock/       # 来自 mattpocock/skills
 ├── emilkowalski/     # 来自 emilkowalski/skills
 ├── shadcn/           # 来自 shadcn/improve
+├── coreyhaines31/    # 来自 coreyhaines31/marketingskills
 └── caven/            # 本仓库原创技能
 ```
 
@@ -78,6 +79,8 @@ npm run add -- owner/repository \
 
 同步前应先提交现有修改；脚本默认拒绝覆盖有未提交修改的作者目录。运行 `npm run check` 可只下载和验证；需要明确替换有本地修改的第三方目录时，运行 `npm run sync -- --force`。同步完成后审查 Git diff，再提交发布。
 
+仓库维护者在新增或更新来源后，可调用仓库专用的 `/maintain-skills-collection` Skill。它会审核来源、许可证、中英文目录、索引和安装结果，但不会作为本集合的公开 Skill 发布。
+
 原创 Skill 直接创建在 `skills/caven/<skill-name>/`。长期定制第三方 Skill 时，将其作为派生 Skill 放入 `skills/caven/`，使用新的唯一名称并记录来源。
 
 ## 许可证
@@ -89,4 +92,5 @@ npm run add -- owner/repository \
 - [mattpocock/skills](https://github.com/mattpocock/skills)
 - [emilkowalski/skills](https://github.com/emilkowalski/skills)
 - [shadcn/improve](https://github.com/shadcn/improve)
+- [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills)
 - [vercel-labs/skills](https://github.com/vercel-labs/skills)
